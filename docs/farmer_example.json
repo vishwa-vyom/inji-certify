@@ -1,5 +1,4 @@
 {
-  "credential": {
         "renderMethod": [
           {
             "template": {
@@ -178,4 +177,3 @@
           "proofValue": "zszozByMP3Q3mD8f2Yudr9XdD46SKZUKA1x1sd5JhiVATwD4eyD2UtiYCh3KrUDb8sipZ73PjMJ1iKGXb4gr3bpY"
         }
       }
-}
