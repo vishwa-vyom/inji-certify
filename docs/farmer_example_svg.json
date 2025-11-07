@@ -1,0 +1,95 @@
+{
+  "renderMethod": [
+    {
+      "template": {
+        "digestMultibase": "z4NGE6e3tLrSA4i3JThFQkyYgH3c4NkHU2sFRKrC4turE",
+        "mediaType": "image/svg+xml",
+        "id": "https://piyush7034.github.io/context-schema/svg-template/farmer-svg-template.svg"
+      },
+      "renderSuite": "svg-mustache",
+      "type": "TemplateRenderMethod"
+    }
+  ],
+  "credentialSubject": {
+    "farmerId": "9876543210",
+    "idType": "Farmer ID",
+    "phoneNumber": "9876543210",
+    "address": {
+      "district": "Bangalore",
+      "state": "Karnataka",
+      "type": "PostalAddress",
+      "village": "Koramangala"
+    },
+    "gender": [
+      {
+        "language": "en",
+        "value": "Male"
+      },
+      {
+        "language": "fr",
+        "value": "Homme"
+      },
+      {
+        "language": "ar",
+        "value": "ذكر"
+      }
+    ],
+    "authority": "Agro Veritas Authority",
+    "fullName": [
+      {
+        "language": "en",
+        "value": "John Doe"
+      },
+      {
+        "language": "fr",
+        "value": "Jean Dupont"
+      },
+      {
+        "language": "ar",
+        "value": "جون دو"
+      }
+    ],
+    "farm": {
+      "ownershipType": "Owner",
+      "primaryCommodity": "Maize",
+      "totalLandArea": {
+        "unit": "hectares",
+        "value": 3
+      },
+      "crops": [
+        {
+          "cropName": "Maize",
+          "season": "kharif",
+          "type": "Crop"
+        },
+        {
+          "cropName": "Rice",
+          "season": "rabi",
+          "type": "Crop"
+        }
+      ],
+      "type": "Farm"
+    },
+    "dateOfBirth": "1990-05-25",
+    "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlUzbTlIdFYwZEhBX0w4cTVZNWk2Wl9JcDRWTjhUTnVpODJlcDl1QkIzdzQiLCJhbGciOiJSUzI1NiIsIm4iOiJxSHY4LWducmt3WlhyVm9wSUdPS3JzVENKVmV0eVRDYzZKVVAyeFVCVFlUMnBTbmpITUdSbkRsV2lpRkY5QjcxYzVnZnJHaDhIRUJ4Y01Rd04yN3VDUkZfdmFDSDBRQ1J5cFcwQXpNQ2FISTZ0SHNZTFVBSGdoV1lFVXNncHViR0l6eV91UGJVQTBzZ1pxRUNDdms4NERTV2RzWFRTLXMzd1VZblNhS1ByVGUyQkZ2RExDeVNYb3ZqSk1kZWZzcVdSVkl3bVNDUGFmelpoWmpfVzV1TGc1Z2dzLXdZTUpyY0tGaF9FX1l0YWRkQXZfdHJkOUdmZEZ6TzBWQ0JnOG5KdXNpSzB3cDhvcllqYjJPNUE5LTJfeWtZSUNOR3FfLUJjbDhIM0stcU9leHctbElTTzhkNHNtWDY3azZpdVdtZTk4SG0tNFQ5YVFwMWJMZC1HalpuY3cifQ=="
+  },
+  "validUntil": "2027-11-07T05:37:04.705Z",
+  "validFrom": "2025-11-07T05:37:04.705Z",
+  "type": [
+    "VerifiableCredential",
+    "FarmerCredential"
+  ],
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://vishwa-vyom.github.io/DID/context/farmer-context.json",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "issuer": "did:web:piyush7034.github.io:DID:farmer",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2025-11-07T00:07:04Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:piyush7034.github.io:DID:farmer#LYs95rEHKsqm1_TIFJxffLUXHZL1rM_h-UuwRi6PtN4",
+    "proofValue": "z5tX7zKvNBXuZda5xoN2LGazsYaDdBZsWkXTssraiZskjHchSM2ZvNFbPETzFS5NL8YDhAT4wKvWZHK4i3ZD9u8z8"
+  }
+}
